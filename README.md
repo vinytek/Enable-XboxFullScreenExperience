@@ -60,21 +60,31 @@ This script edits the Windows registry. While it backs up the previous value bef
 
 ## Screenshots
 
-**Before** — Settings > Gaming, no Full screen experience toggle:
+**Before** — Desktop on first boot, no Xbox mode:
+
+![Before - Desktop](captures/Before_XboxFullScreenExperience_Home.png)
+
+**Before** — Settings > Gaming > XBOX mode, limited options (no "Choose home app"):
 
 ![Before - Settings](captures/Before_XboxFullScreenExperience_Settings.png)
 
-**Running the script** (PowerShell, elevated):
+**Running the script** — device form was `Tablet (2)`, switched to `Gaming handheld (46)`:
 
 ![Running the script](captures/Before_XboxFullScreenExperience_Powershell_RunAsAdmin.png)
 
-**After** — Settings > Gaming, toggle now available:
+**After** — Settings > Gaming > XBOX mode, full options now available ("Choose home app", "Enter XBOX mode on startup"):
 
 ![After - Settings](captures/After_XboxFullScreenExperience_Settings.png)
 
 **Result** — Xbox Full Screen Experience running:
 
 ![Xbox Full Screen Experience](captures/XboxFullScreenExperience_Home.png)
+
+### Restore / delete backup
+
+Running the script again after a change detects the saved backup and offers to restore or delete it — no need to remember any values:
+
+![Restore or delete backup](captures/XboxFullScreenExperience_Powershell_RunAsAdmin.png)
 
 ## Reverting
 
