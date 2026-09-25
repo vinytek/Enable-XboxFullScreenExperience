@@ -58,6 +58,24 @@ This script edits the Windows registry. While it backs up the previous value bef
   ```
   so you can revert later by running the script again and choosing **Restore**.
 
+## Screenshots
+
+**Before** — Settings > Gaming, no Full screen experience toggle:
+
+![Before - Settings](captures/Before_XboxFullScreenExperience_Settings.png)
+
+**Running the script** (PowerShell, elevated):
+
+![Running the script](captures/Before_XboxFullScreenExperience_Powershell_RunAsAdmin.png)
+
+**After** — Settings > Gaming, toggle now available:
+
+![After - Settings](captures/After_XboxFullScreenExperience_Settings.png)
+
+**Result** — Xbox Full Screen Experience running:
+
+![Xbox Full Screen Experience](captures/XboxFullScreenExperience_Home.png)
+
 ## Reverting
 
 Run the script again — if a backup exists, it will offer to restore your original value.
