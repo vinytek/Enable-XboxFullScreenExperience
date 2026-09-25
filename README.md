@@ -26,11 +26,11 @@ This script edits the Windows registry. While it backs up the previous value bef
 ## Usage
 
 1. Download the script directly:
-   [Enable-XboxFullScreenExperience.ps1](https://raw.githubusercontent.com/vinytek/Enable-XboxFullScreenExperience/main/Enable-XboxFullScreenExperience.ps1)
+   [Enable-XboxFullScreenExperience.ps1](https://github.com/vinytek/Enable-XboxFullScreenExperience/releases/latest/download/Enable-XboxFullScreenExperience.ps1)
 
    Or via PowerShell:
    ```powershell
-   Invoke-WebRequest -Uri "https://raw.githubusercontent.com/vinytek/Enable-XboxFullScreenExperience/main/Enable-XboxFullScreenExperience.ps1" -OutFile "Enable-XboxFullScreenExperience.ps1"
+   Invoke-WebRequest -Uri "https://github.com/vinytek/Enable-XboxFullScreenExperience/releases/latest/download/Enable-XboxFullScreenExperience.ps1" -OutFile "Enable-XboxFullScreenExperience.ps1"
    ```
 2. Open PowerShell **as Administrator**.
 3. Navigate to the folder containing the script:
